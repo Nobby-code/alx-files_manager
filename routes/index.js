@@ -1,6 +1,6 @@
 import express from 'express';
 import AppController from '../controllers/AppController';
-// import UsersController from '../controllers/UsersController';
+import UsersController from '../controllers/UsersController';
 
 export default function Routes(app) {
   const router = express.Router();
